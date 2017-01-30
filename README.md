@@ -1,12 +1,23 @@
-# Example 6
+# GO React Project
 
-## Running the exmaple
+This project consists of a REST API server using GO with a ReactJS client side.
 
-To run this exmaple, from the root of this project:
-
+## Prerequisites
 ```sh
-go run ./v6/*.go
+Download Golang and install
+Download NodeJS and install
+Install mux: go get -u github.com/gorilla/mux
 ```
 
-download Golang and install
-install mux - command: go get -u github.com/gorilla/mux
+## To Start Server
+```sh
+navigate into server directory
+go run *.go
+```
+
+## To Start Client
+```sh
+navigate into client directory
+npm install
+npm start
+```
